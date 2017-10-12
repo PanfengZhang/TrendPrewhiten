@@ -2,7 +2,7 @@
 # Reference
 # Zhang X, Vincent L A, Hogg W D, et al. Temperature and precipitation trends in Canada during the 20th century[J]. Atmosphere-ocean, 2000, 38(3): 395-429.
 # Wang X L, Swail V A. Changes of Extreme Wave Heights in Northern Hemisphere Oceans and Related Atmospheric Circulation Regimes[J]. Journal of Climate, 2001, 14(10): 2204-2221.
-
+# This procedure was programed by Zhang Panfeng, China University of Geosciences. Email: zhangpanfeng@cug.edu.cn
 rm(list = ls())
 library(wql)  # MannKen function, which is a Sen's Slope Estimator and M-K test function
 TrendPrewhiten <- function(Y) {
