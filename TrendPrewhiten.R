@@ -15,7 +15,8 @@
 
 #-------------------------------------------------------------------------------
 # TrendPrewhiten begin
-TrendPrewhiten <- function(Y) { # Y is a time series or a vector.
+TrendPrewhiten <- function(Y) { 
+  # Y is a time series or a vector.
   # step 1
   n <- length(Y)
   r0 <- stats::acf(Y, plot = FALSE, na.action = na.pass)$acf[2]
